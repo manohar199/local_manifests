@@ -2,13 +2,7 @@
 <manifest>
  
   <remote name="github_bramble" fetch="https://github.com" />
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-11.0.0_r40"
-           remote="aosp"
-           sync-j="4" />
-
+  
 
   <project
     path="device/google/bramble"
@@ -21,7 +15,7 @@
     name="ProtonAOSP/android_device_google_redbull"
     remote="github_bramble"
     revision="rvc" />
-  <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,redbull" clone-depth="1" remote="aosp" />
+  
   
   <project 
     name="NeutronBlobs/android_vendor_google" 
