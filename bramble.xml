@@ -2,28 +2,31 @@
 <manifest>
  
   <remote name="github_bramble" fetch="https://github.com" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com/" />
+  <default revision="refs/tags/android-11.0.0_r40"
+           remote="aosp"
+           sync-j="4" />
+
 
   <project
     path="device/google/bramble"
-    name="LineageOS/android_device_google_bramble"
+    name="ProtonAOSP/android_device_google_bramble"
     remote="github_bramble"
-    revision="lineage-18.1" />
+    revision="rvc" />
 
   <project
     path="device/google/redbull"
-    name="LineageOS/android_device_google_redbull"
+    name="ProtonAOSP/android_device_google_redbull"
     remote="github_bramble"
-    revision="lineage-18.1" />
-  <project
-    path="kernel/google/redbull"
-    name="LineageOS/android_kernel_google_redbull"
-    remote="github_bramble"
-    revision="lineage-18.1" />
+    revision="rvc" />
+  <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,redbull" clone-depth="1" remote="aosp" />
   
   <project 
-    name="TheMuppets/proprietary_vendor_google" 
+    name="NeutronBlobs/android_vendor_google" 
     remote="github_bramble" 
     path="vendor/google/" 
-    revision="lineage-18.1" />
+    revision="rvc" />
  
 </manifest>
