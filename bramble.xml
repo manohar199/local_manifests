@@ -21,11 +21,9 @@
     revision="lineage-18.1" />
   
   <project 
-    name="TheMuppets/proprietary_vendor_google_bramble" 
+    name="TheMuppets/proprietary_vendor_google" 
     remote="github_bramble" 
-    path="vendor/google/bramble" 
-    groups="muppets,muppets_bramble" 
-    clone-depth="1" 
+    path="vendor/google/" 
     revision="lineage-18.1" />
  
 </manifest>
