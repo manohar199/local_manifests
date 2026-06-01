@@ -15,7 +15,7 @@
     name="manohar199/android_device_google_redbull"
     remote="github_bramble"
     revision="lineage-23.2" />
-<project
+  <project
     path="kernel/google/redbull"
     name="Bias8145/android_kernel_google_redbull"
     remote="github_bramble"
