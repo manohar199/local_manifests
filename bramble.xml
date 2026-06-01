@@ -15,18 +15,18 @@
     name="manohar199/android_device_google_redbull"
     remote="github_bramble"
     revision="lineage-23.2" />
-
- <project
-    name="LineageOS/android_kernel_google_redbull"
+<project
     path="kernel/google/redbull"
+    name="Bias8145/android_kernel_google_redbull"
     remote="github_bramble"
-    revision="lineage-18.1"
-    clone-depth="1" />
+    revision="ksu-legacy-16.2" />
   
   <project 
-    name="TheMuppets/proprietary_vendor_google" 
+    name="TheMuppets/proprietary_vendor_google_bramble" 
     remote="github_bramble" 
-    path="vendor/google/" 
-    revision="lineage-18.1" />
- 
+    path="vendor/google/bramble" 
+    clone-depth="1" 
+    revision="lineage-23.2" />
+  
+
 </manifest>
