@@ -8,7 +8,7 @@
     path="device/google/bramble"
     name="manohar199/android_device_google_bramble"
     remote="github_bramble"
-    revision="lineage-23.2" />
+    revision="axion16" />
 
   <project
     path="device/google/redbull"
