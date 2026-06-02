@@ -6,7 +6,7 @@
 <project name="manohar199/android_device_xiaomi_spring"
          path="device/xiaomi/spring"
          remote="github_spring"
-         revision="lineage-23.2" />
+         revision="pixel16" />
 
 <project name="manohar199/android_vendor_xiaomi_spring"
          path="vendor/xiaomi/spring"
