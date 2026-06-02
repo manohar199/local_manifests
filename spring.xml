@@ -34,7 +34,7 @@
 
 <project name="spring4ever/android_vendor_qcom_opensource_arpal-lx"
          path="vendor/qcom/opensource/arpal-lx"
-         remote="github"
+         remote="github_spring"
          revision="lineage-23.2" />
 
 <project name="spring4ever/android_vendor_qcom_opensource_dataipa"
