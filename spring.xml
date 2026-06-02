@@ -17,20 +17,6 @@
          path="device/xiaomi/spring-kernel"
          remote="github_spring"
          revision="lineage-23.2" />
- <remove-project name="LineageOS/android_hardware_qcom_display" />
- <remove-project name="LineageOS/android_vendor_qcom_opensource_dataipa" />
- <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />  
- <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
- <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
- <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
- <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
 
- <project path="hardware/qcom/display" name="spring4ever/android_hardware_qcom_display" remote="github" revision="lineage-23.2" />
- <project path="vendor/qcom/opensource/dataipa" name="spring4ever/android_vendor_qcom_opensource_dataipa" remote="github" revision="lineage-23.2" />
- <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="spring4ever/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-23.2" />
- <project path="vendor/qcom/opensource/audioreach-graphservices" name="spring4ever/android_vendor_qcom_opensource_audioreach-graphservices" remote="github" revision="lineage-23.2" />
- <project path="hardware/qcom/audio-ar" name="spring4ever/android_hardware_qcom_audio-ar" remote="github" revision="lineage-23.2" />
- <project path="vendor/qcom/opensource/arpal-lx" name="spring4ever/android_vendor_qcom_opensource_arpal-lx" remote="github" revision="lineage-23.2" />
- <project path="vendor/qcom/opensource/agm" name="spring4ever/android_vendor_qcom_opensource_agm" remote="github" revision="lineage-23.2" />
 
 </manifest>
