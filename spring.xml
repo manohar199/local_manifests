@@ -17,39 +17,5 @@
          path="device/xiaomi/spring-kernel"
          remote="github_spring"
          revision="lineage-23.2" />
-<project name="spring4ever/android_hardware_qcom_display"
-         path="hardware/qcom/display"
-         remote="github_spring"
-         revision="lineage-23.2" />
-
-<project name="spring4ever/android_hardware_qcom_audio-ar"
-         path="hardware/qcom/audio-ar"
-         remote="github_spring"
-         revision="lineage-23.2" />
-
-<project name="spring4ever/android_vendor_qcom_opensource_agm"
-         path="vendor/qcom/opensource/agm"
-         remote="github_spring"
-         revision="lineage-23.2" />
-
-<project name="spring4ever/android_vendor_qcom_opensource_arpal-lx"
-         path="vendor/qcom/opensource/arpal-lx"
-         remote="github_spring"
-         revision="lineage-23.2" />
-
-<project name="spring4ever/android_vendor_qcom_opensource_dataipa"
-         path="vendor/qcom/opensource/dataipa"
-         remote="github_spring"
-         revision="lineage-23.2" />
-
-<project name="spring4ever/android_vendor_qcom_opensource_data-ipa-cfg-mgr"
-         path="vendor/qcom/opensource/data-ipa-cfg-mgr"
-         revision="lineage-23.2"
-         remote="github_spring" />
-
-<project name="spring4ever/android_vendor_qcom_opensource_audioreach-graphservices"
-         path="vendor/qcom/opensource/audioreach-graphservices"
-         revision="lineage-23.2"
-         remote="github_spring" />
 
 </manifest>
