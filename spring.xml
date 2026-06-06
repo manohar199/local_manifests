@@ -8,7 +8,7 @@
 <project name="manohar199/android_device_xiaomi_spring"
          path="device/xiaomi/spring"
          remote="github_spring"
-         revision="pixel16" />
+         revision="luna" />
 
 <project name="manohar199/android_vendor_xiaomi_spring"
          path="vendor/xiaomi/spring"
