@@ -3,7 +3,7 @@
  
   <remote name="github_spring" fetch="https://github.com" />
  
-<remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+
  
 <project name="manohar199/android_device_xiaomi_spring"
          path="device/xiaomi/spring"
@@ -29,9 +29,4 @@
          path="hardware/xiaomi"
          remote="github_spring"
          revision="lineage-23.2" />
- 
-<project path="hardware/qcom-caf/common" 
-             name="manohar199/android_hardware_qcom-caf_common" 
-             remote="github_spring" 
-             revision="lineage-23.2" />
 </manifest>
