@@ -3,7 +3,6 @@
  
   <remote name="github_spring" fetch="https://github.com" />
  
-<remove-project name="LineageOS/android_hardware_qcom-caf_common" />
  
 <project name="manohar199/android_device_xiaomi_spring"
          path="device/xiaomi/spring"
