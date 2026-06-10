@@ -28,7 +28,7 @@
     clone-depth="1" 
     revision="lineage-23.2" />
 
- <remove-project name="AxionAOSP/android_packages_apps_Updater" />
+ <remove-project name="los22/android_packages_apps_Updater" />
 
   <project
         name="manohar199/android_packages_apps_Updater"
