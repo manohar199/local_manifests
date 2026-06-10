@@ -27,6 +27,11 @@
     path="vendor/google/bramble" 
     clone-depth="1" 
     revision="lineage-23.2" />
-  
+
+  <project
+        name="manohar199/android_packages_apps_Updater"
+        path="packages/apps/Updater"
+        remote="github_bramble"
+        revision="lineage-23.2" />
 
 </manifest>
