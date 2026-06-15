@@ -20,11 +20,6 @@
          remote="github_spring"
          revision="lineage-23.2" />
  
-<project name="manohar199/hardware_qcom-caf_blair_display"
-         path="hardware/qcom-caf/blair/display"
-         remote="github_spring"
-         revision="lineage-23.2" />
- 
 <project name="LineageOS/android_hardware_xiaomi"
          path="hardware/xiaomi"
          remote="github_spring"
