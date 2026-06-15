@@ -10,7 +10,47 @@
     <remove-project path="hardware/qcom-caf/sm8650/display" />
     <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
     <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
+<project
+        name="spring4ever/android_vendor_qcom_opensource_agm"
+        path="hardware/qcom-caf/sm8650/audio/agm"
+        remote="github"
+        revision="lineage-23.2" />
 
+    <project
+        name="spring4ever/android_vendor_qcom_opensource_arpal-lx"
+        path="hardware/qcom-caf/sm8650/audio/pal"
+        remote="github"
+        revision="lineage-23.2" />
+
+    <project
+        name="spring4ever/android_hardware_qcom_audio-ar"
+        path="hardware/qcom-caf/sm8650/audio/primary-hal"
+        remote="github"
+        revision="lineage-23.2" />
+
+    <project
+        name="spring4ever/android_vendor_qcom_opensource_audioreach-graphservices"
+        path="hardware/qcom-caf/sm8650/audio/graphservices"
+        remote="github"
+        revision="lineage-23.2" />
+
+    <project
+        name="spring4ever/android_hardware_qcom_display"
+        path="hardware/qcom-caf/sm8650/display"
+        remote="github"
+        revision="lineage-23.2" />
+
+    <project
+        name="spring4ever/android_vendor_qcom_opensource_dataipa"
+        path="hardware/qcom-caf/sm8650/dataipa"
+        remote="github"
+        revision="lineage-23.2" />
+
+    <project
+        name="spring4ever/android_vendor_qcom_opensource_data-ipa-cfg-mgr"
+        path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr"
+        remote="github"
+        revision="lineage-23.2" />
 
  
 <project name="manohar199/android_device_xiaomi_spring"
