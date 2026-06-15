@@ -27,7 +27,7 @@
 <remove-project name="PixelOS-AOSP/android_packages_apps_Updater"/>
 
  <project
-        path="packages/apps/Updater2"
+        path="packages/apps/Updater"
         name="manohar199/android_packages_apps_Updater2"
         remote="github_spring"
         revision="sixteen-qpr2" />
