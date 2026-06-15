@@ -29,6 +29,6 @@
 <project name="manohar199/android_packages_apps_Updater2"
          path="packages/apps/Updater"
          remote="github_spring"
-         revision="sxteen_qpr2" />
+         revision="sixteen_qpr2" />
 
 </manifest>
