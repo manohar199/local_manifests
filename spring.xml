@@ -26,7 +26,7 @@
          revision="lineage-23.2" />
 <remove-project name="PixelOS-AOSP/android_packages_apps_Updater"/>
 
-<project name="manohar199/android_packages_apps_Updater"
+<project name="manohar199/android_packages_apps_Updater2"
          path="packages/apps/Updater"
          remote="github_spring"
          revision="lineage-23.2" />
