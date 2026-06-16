@@ -13,43 +13,43 @@
 <project
         name="spring4ever/android_vendor_qcom_opensource_agm"
         path="hardware/qcom-caf/sm8650/audio/agm"
-        remote="github"
+        remote="github_spring"
         revision="lineage-23.2" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_arpal-lx"
         path="hardware/qcom-caf/sm8650/audio/pal"
-        remote="github"
+        remote="github_spring"
         revision="lineage-23.2" />
 
     <project
         name="spring4ever/android_hardware_qcom_audio-ar"
         path="hardware/qcom-caf/sm8650/audio/primary-hal"
-        remote="github"
+        remote="github_spring"
         revision="lineage-23.2" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_audioreach-graphservices"
         path="hardware/qcom-caf/sm8650/audio/graphservices"
-        remote="github"
+        remote="github_spring"
         revision="lineage-23.2" />
 
     <project
         name="spring4ever/android_hardware_qcom_display"
         path="hardware/qcom-caf/sm8650/display"
-        remote="github"
+        remote="github_spring"
         revision="lineage-23.2" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_dataipa"
         path="hardware/qcom-caf/sm8650/dataipa"
-        remote="github"
+        remote="github_spring"
         revision="lineage-23.2" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_data-ipa-cfg-mgr"
         path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr"
-        remote="github"
+        remote="github_spring"
         revision="lineage-23.2" />
 
  
@@ -72,11 +72,5 @@
          path="hardware/xiaomi"
          remote="github_spring"
          revision="lineage-23.2" />
-<remove-project name="PixelOS-AOSP/android_packages_apps_Updater"/>
 
- <project
-        path="packages/apps/Updater"
-        name="manohar199/android_packages_apps_Updater2"
-        remote="github_spring"
-        revision="sixteen-qpr2" />
 </manifest>
