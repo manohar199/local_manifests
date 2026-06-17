@@ -72,5 +72,5 @@
          path="hardware/xiaomi"
          remote="github_spring"
          revision="lineage-23.2" />
-
+<project path="vendor/lineage-priv/keys" name="manohar199/android_vendor_lineage-priv_keys" remote="github" revision="master" />
 </manifest>
