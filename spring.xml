@@ -25,43 +25,43 @@
         name="spring4ever/android_vendor_qcom_opensource_agm"
         path="hardware/qcom-caf//audio/agm"
         remote="github_spring"
-        revision="lineage-23.2" />
+        revision="lineage-23.2-caf-sm6375-6.1" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_arpal-lx"
         path="hardware/qcom-caf/sm6375-6.1/audio/pal"
         remote="github_spring"
-        revision="lineage-23.2" />
+        revision="lineage-23.2-caf-sm6375-6.1" />
 
     <project
         name="spring4ever/android_hardware_qcom_audio-ar"
         path="hardware/qcom-caf/sm6375-6.1/audio/primary-hal"
         remote="github_spring"
-        revision="lineage-23.2" />
+        revision="lineage-23.2-caf-sm6375-6.1" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_audioreach-graphservices"
         path="hardware/qcom-caf/sm6375-6.1/audio/graphservices"
         remote="github_spring"
-        revision="lineage-23.2" />
+        revision="lineage-23.2-caf-sm6375-6.1" />
 
     <project
         name="spring4ever/android_hardware_qcom_display"
         path="hardware/qcom-caf/sm6375-6.1/display"
         remote="github_spring"
-        revision="lineage-23.2" />
+        revision="lineage-23.2-caf-sm6375-6.1" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_dataipa"
         path="hardware/qcom-caf/sm6375-6.1/dataipa"
         remote="github_spring"
-        revision="lineage-23.2" />
+        revision="lineage-23.2-caf-sm6375-6.1" />
 
     <project
         name="spring4ever/android_vendor_qcom_opensource_data-ipa-cfg-mgr"
         path="hardware/qcom-caf/sm6375-6.1/data-ipa-cfg-mgr"
         remote="github_spring"
-        revision="lineage-23.2" />
+        revision="lineage-23.2-caf-sm6375-6.1" />
 
  
 <project name="manohar199/android_device_xiaomi_spring"
