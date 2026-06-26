@@ -63,7 +63,7 @@
          remote="github_spring"
          revision="lineage-23.2" />
 
-<project name="manohar199/android_device_xiaomi_spring-kernel"
+<project name="spring4ever/android_device_xiaomi_spring-kernel"
          path="device/xiaomi/spring-kernel"
          remote="github_spring"
          revision="lineage-23.2" />
