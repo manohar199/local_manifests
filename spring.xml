@@ -4,7 +4,7 @@
   <remote name="github_spring" fetch="https://github.com" />
   <remote name="oplus" fetch="https://github.com/avalon-stuffs"/>
   <remote name="fork" fetch="https://github.com/"/>
-  <remote name="gitlab" fetch="https://gitlab.com" />
+  <remote name="gitlab_spring" fetch="https://gitlab.com" />
 
   
   
@@ -78,7 +78,7 @@
  <project
         path="device/xiaomi/spring-kernel"
         name="spring01/android_device_xiaomi_spring-kernel"
-        remote="gitlab"
+        remote="gitlab_spring"
         revision="lineage-23.2" />
  
 <project name="LineageOS/android_hardware_xiaomi"
