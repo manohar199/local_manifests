@@ -6,7 +6,13 @@
   <remote name="fork" fetch="https://github.com/"/>
   <remote name="gitlab_spring" fetch="https://gitlab.com" />
 
-  
+    <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
+    <remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
+    <remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" />
+    <remove-project path="hardware/qcom-caf/sm8650/audio/graphservices" />
+    <remove-project path="hardware/qcom-caf/sm8650/display" />
+    <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
+    <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
   
 
     <!-- removals -->
