@@ -2,9 +2,9 @@
 <manifest>
  
   <remote name="github_spring" fetch="https://github.com" />
-  <remote name="oplus" fetch="https://github.com/avalon-stuffs"/>
-  <remote name="fork" fetch="https://github.com/"/>
+
   <remote name="gitlab_spring" fetch="https://gitlab.com" />
+    
     <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
     <remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
     <remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" />
@@ -13,20 +13,6 @@
     <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
     <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
   
-
-   
-   <remove-project name="PixelOS-AOSP/android_vendor_custom"/>
-   <remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos"/>
-   <remove-project name="PixelOS-AOSP/android_frameworks_av"/>
-   <remove-project name="PixelOS-AOSP/android_packages_apps_Settings"/>
-   <remove-project name="PixelOS-AOSP/android_frameworks_base"/>
-
-   <!-- Forks -->
-  <project path="vendor/custom" name="Krishna-s-Hub/android_vendor_custom" remote="fork" revision="test" />
-  <project path="frameworks/av" name="Krishna-s-Hub/android_frameworks_av" remote="fork" revision="sixteen-qpr2" />
-  <project path="frameworks/base" name="Krishna-s-Hub/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="fork" revision="test" />
-  <project path="packages/apps/Settings" name="Krishna-s-Hub/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="fork" revision="sixteen-qpr2" />
-  <project path="packages/apps/LunarisDolby" name="android_packages_apps_LunarisDolby" remote="oplus" revision="16" />
 
 <project
         name="spring4ever/android_vendor_qcom_opensource_agm"
@@ -94,17 +80,5 @@
              remote="github_spring" 
              revision="master" />
 
-  <!-- Extras -->
-  
-
-  <project path="vendor/sony/dolby"
-           name="proprietary_vendor_sony_dolby"
-           remote="oplus"
-           revision="16" />
-
-  <project path="vendor/bcr"
-           name="vendor_bcr"
-           remote="oplus"
-           revision="main" />
 
 </manifest>
