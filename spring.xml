@@ -62,6 +62,11 @@
         path="hardware/qcom-caf/sm6375-6.1/data-ipa-cfg-mgr"
         remote="github_spring"
         revision="lineage-23.2-caf-sm6375-6.1" />
+  <project
+        name="spring4ever/android_hardware_qcom-caf_common
+        path="hardware/qcom-caf/common
+        remote="github_spring"
+        revision="lineage-23.2" />
 
  
 <project name="manohar199/android_device_xiaomi_spring"
