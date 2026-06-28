@@ -77,7 +77,7 @@
          remote="github_spring"
          revision="pixel16" />
 
-<project name="spring4ever/android_vendor_xiaomi_spring"
+<project name="manohar199/android_vendor_xiaomi_spring"
          path="vendor/xiaomi/spring"
          remote="github_spring"
          revision="lineage-23.2" />
