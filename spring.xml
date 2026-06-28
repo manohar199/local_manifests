@@ -8,6 +8,18 @@
 
     
     <!-- removals -->
+<remove-project path="hardware/qcom-caf/msm8953" />
+<remove-project path="hardware/qcom-caf/msm8998" />
+<remove-project path="hardware/qcom-caf/sdm660" />
+<remove-project path="hardware/qcom-caf/sdm845" />
+<remove-project path="hardware/qcom-caf/sm8150" />
+<remove-project path="hardware/qcom-caf/sm8250" />
+<remove-project path="hardware/qcom-caf/sm8350" />
+<remove-project path="hardware/qcom-caf/sm8450" />
+<remove-project path="hardware/qcom-caf/sm8450-6.6" />
+<remove-project path="hardware/qcom-caf/sm8550" />
+<remove-project path="hardware/qcom-caf/sm8650" />
+<remove-project path="hardware/qcom-caf/sm8750" />
    <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
    <remove-project name="PixelOS-AOSP/android_vendor_custom"/>
    <remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos"/>
