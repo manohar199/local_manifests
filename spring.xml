@@ -14,7 +14,7 @@
     <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
   
 
-   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+   
    <remove-project name="PixelOS-AOSP/android_vendor_custom"/>
    <remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos"/>
    <remove-project name="PixelOS-AOSP/android_frameworks_av"/>
@@ -69,11 +69,7 @@
         path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr"
         remote="github_spring"
         revision="lineage-23.2-caf-sm6375-6.1" />
-  <project
-        name="spring4ever/android_hardware_qcom-caf_common"
-        path="hardware/qcom-caf/common"
-        remote="github_spring"
-        revision="lineage-23.2" />
+ 
 
  
 <project name="manohar199/android_device_xiaomi_spring"
