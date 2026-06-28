@@ -8,6 +8,7 @@
 
     
     <!-- removals -->
+   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
    <remove-project name="PixelOS-AOSP/android_vendor_custom"/>
    <remove-project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos"/>
    <remove-project name="PixelOS-AOSP/android_frameworks_av"/>
