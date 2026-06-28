@@ -39,7 +39,7 @@
         revision="lineage-23.2-caf-sm6375-6.1" />
 
     <project
-        name="spring4ever/android_hardware_qcom_display"
+        name="manohar199/android_hardware_qcom_display"
         path="hardware/qcom-caf/sm8650/display"
         remote="github_spring"
         revision="lineage-23.2-caf-sm6375-6.1" />
