@@ -12,9 +12,7 @@
     <remove-project path="hardware/qcom-caf/sm8650/display" />
     <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
     <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
-    <remove-project
-    name="LineageOS/android_device_qcom_sepolicy_vndr"
-    path="device/qcom/sepolicy_vndr" />
+   
 
 <project
         name="spring4ever/android_vendor_qcom_opensource_agm"
