@@ -3,6 +3,7 @@
 
   <!-- Remotes -->
   <remote name="spring4ever" fetch="https://github.com/spring4ever" />
+   <remote name="manohar199" fetch="https://github.com/manohar199" />
   <remote name="niyush"      fetch="https://gitlab.com/Niyush-04" />
   <remote name="lineage"     fetch="https://github.com/LineageOS" />
 
@@ -47,9 +48,9 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi"
            remote="lineage" revision="lineage-23.0" />
 
-<project path="vendor/lineage-priv/keys" 
+<project     path="vendor/lineage-priv/keys" 
              name="manohar199/android_vendor_lineage-priv_keys" 
-             revision="master" />
+             revision="master"  remote="manohar199"/>
 
 
 </manifest>
