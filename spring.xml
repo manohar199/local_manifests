@@ -1,52 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Remotes -->
-  <remote name="spring4ever" fetch="https://github.com/spring4ever" />
    <remote name="manohar199" fetch="https://github.com/manohar199" />
-  <remote name="niyush"      fetch="https://gitlab.com/Niyush-04" />
-  <remote name="lineage"     fetch="https://github.com/LineageOS" />
 
-  <!-- Drop the stock project that gets replaced (the "rm -rf" step) -->
-  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
-
-  <!-- Device -->
-  <project path="device/xiaomi/spring" name="android_device_xiaomi_spring"
-           remote="spring4ever" revision="main" />
-
-  <!-- Kernel (prebuilt) -->
-  <project path="device/xiaomi/spring-kernel" name="android_device_xiaomi_spring-kernel"
-           remote="niyush" revision="main" />
-
-  <!-- Vendor -->
-  <project path="vendor/xiaomi/spring" name="android_vendor_xiaomi_spring"
-           remote="spring4ever" revision="main" />
-
-  <!-- Custom HALs -->
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common"
-           remote="spring4ever" revision="main">
-    <!-- replaces: ln -sf ../common/os_pickup_qssi.bp .../sm6375-6.1/Android.bp -->
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6375-6.1/Android.bp" />
-  </project>
-
-  <project path="hardware/qcom-caf/sm6375-6.1/audio/agm" name="android_vendor_qcom_opensource_agm"
-           remote="spring4ever" revision="main" />
-  <project path="hardware/qcom-caf/sm6375-6.1/audio/pal" name="android_vendor_qcom_opensource_arpal-lx"
-           remote="spring4ever" revision="main" />
-  <project path="hardware/qcom-caf/sm6375-6.1/audio/primary-hal" name="android_hardware_qcom_audio-ar"
-           remote="spring4ever" revision="main" />
-  <project path="hardware/qcom-caf/sm6375-6.1/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices"
-           remote="spring4ever" revision="main" />
-  <project path="hardware/qcom-caf/sm6375-6.1/display" name="android_hardware_qcom_display"
-           remote="spring4ever" revision="main" />
-  <project path="hardware/qcom-caf/sm6375-6.1/dataipa" name="android_vendor_qcom_opensource_dataipa"
-           remote="spring4ever" revision="main" />
-  <project path="hardware/qcom-caf/sm6375-6.1/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr"
-           remote="spring4ever" revision="main" />
-
-  <!-- Xiaomi components -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi"
-           remote="lineage" revision="lineage-23.0" />
 
 <project     path="vendor/lineage-priv/keys" 
              name="manohar199/android_vendor_lineage-priv_keys" 
