@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-   <remote name="manohar199" fetch="https://github.com/manohar199" />
-
-
-<project     path="vendor/lineage-priv/keys" 
-             name="manohar199/android_vendor_lineage-priv_keys" 
-             revision="master"  remote="manohar199"/>
-
 
 </manifest>
