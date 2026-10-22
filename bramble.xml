@@ -12,14 +12,14 @@
 
   <project
     path="device/google/redbull"
-    name="manohar199/android_device_google_redbull"
+    name="LineageOS/android_device_google_redbull"
     remote="github_bramble"
     revision="lineage-23.2" />
   <project
     path="kernel/google/redbull"
     name="Bias8145/android_kernel_google_redbull"
     remote="github_bramble"
-    revision="ksu-legacy-16.2" />
+    revision="16.2-3.4.0" />
   
   <project 
     name="TheMuppets/proprietary_vendor_google_bramble" 
